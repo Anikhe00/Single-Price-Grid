@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  background-color: #E6EFF5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: scroll;
+}
+
+.card {
+  padding: 2.5rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.one {
+  grid-column: span 2;
+  row-gap: 1rem;
+  background-color: #FFFFFF;
+}
+
+.one > h1 {
+  font-size: 1.5rem;
+  line-height: normal;
+  font-weight: 700;
+  text-align: start;
+  color: #2AB3B1;
+  letter-spacing: -0.3px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.yellow {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.22px;
+  color: #C0DF33;
+}
+
+.body {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: 400;
+  letter-spacing: -0.25px;
+  color: #9AA7BE;
+}
+
+.two {
+  row-gap: 1.25rem;
+  background-color: #2AB3B1;
+}
+
+.two > h2 {
+  font-size: 1.125rem;
+  line-height: normal;
+  font-weight: 600;
+  letter-spacing: -0.22px;
+  color: #FFFFFF;
+}
+
+.price-details-and-button {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.625rem;
+}
+
+.price-and-details {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.25rem;
+}
+
+.price-and-month {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.5rem;
+  justify-content: start;
+  align-items: center;
+}
+
+.price-and-month > h1 {
+  font-size: 2rem;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.price-and-month > p {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  color: #FFFFFF;
+  opacity: 50%;
+}
+
+.details > p {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  color: #FFFFFF;
+}
+
+button {
+  padding: 1rem 0;
+  background-color: #C0DF33;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+.three {
+  row-gap: 1.25rem;
+  background-color: #4ABFBD;
+}
+
+.three > h2 {
+  font-size: 1.125rem;
+  line-height: normal;
+  font-weight: 700;
+  color: #FFFFFF;
+  letter-spacing: -0.22px;
+}
+
+.three > p {
+  font-size: 0.825rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  letter-spacing: -0.17px;
+  color: #FFFFFF;
+  opacity: 75%;
+}
+
+.price-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 60rem) {
+  main {
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    background-color: #E6EFF5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+  }
+
+  .card {
+    padding: 1.5rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .one > h1 {
+    font-size: 1.25rem;
+    line-height: normal;
+    font-weight: 700;
+    text-align: start;
+    color: #2AB3B1;
+    letter-spacing: -0.25px;
+  }
+
+  .one {
+    grid-column: span 1;
+    row-gap: 1rem;
+    background-color: #FFFFFF;
+  }
+
+  .price-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+  
+  .yellow {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    letter-spacing: -0.19px;
+    color: #C0DF33;
+  }
+  
+  .body {
+    font-size: 0.875rem;
+    line-height: 1.625rem;
+    font-weight: 400;
+    letter-spacing: -0.17px;
+    color: #9AA7BE;
+  }
+
+  .two {
+    row-gap: 1.125rem;
+    background-color: #2AB3B1;
+  }
+}
