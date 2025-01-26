@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/Anikhe00/Testimonial-Cards)
-- Live Site URL: (https://testimonial-cards-omega.vercel.app/)
+- Solution URL: (https://github.com/Anikhe00/Single-Price-Grid)
+- Live Site URL: (https://single-price-grid-one-gamma.vercel.app/)
 
 ## My process
 
